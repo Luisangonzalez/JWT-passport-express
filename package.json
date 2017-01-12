@@ -1,0 +1,24 @@
+{
+    "name": "JWT-passport-express",
+    "version": "0.0.1",
+    "description": "JWT on express",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Luisangonzalez/JWT-passport-express.git"
+    },
+    "author": "Luisangonzalez",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "jwt-simple": "^0.5.1",
+        "moment": "^2.17.1",
+        "passport": "^0.3.2",
+        "passport-jwt": "^2.2.1"
+    }
+}
